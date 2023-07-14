@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-11T21:11:41 IST" name="Suite" finished-at="2023-07-11T21:12:08 IST" duration-ms="27109">
+    <groups>
+    </groups>
+    <test started-at="2023-07-11T21:11:41 IST" name="Test" finished-at="2023-07-11T21:12:08 IST" duration-ms="27109">
+      <class name="com.testCases.TC_001">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:com.testCases.TC_001@2dc54ad4]" started-at="2023-07-11T21:11:41 IST" name="beforesuit" finished-at="2023-07-11T21:11:41 IST" duration-ms="472" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuit -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_001@2dc54ad4]" started-at="2023-07-11T21:11:41 IST" name="beforeMethod" finished-at="2023-07-11T21:11:43 IST" duration-ms="1594" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_001.tC_user_Registor()[pri:0, instance:com.testCases.TC_001@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tC_user_Registor()[pri:0, instance:com.testCases.TC_001@2dc54ad4]" started-at="2023-07-11T21:11:43 IST" name="tC_user_Registor" finished-at="2023-07-11T21:11:55 IST" duration-ms="11669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_user_Registor -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testCases.TC_001@2dc54ad4]" started-at="2023-07-11T21:11:55 IST" name="afterMethod" finished-at="2023-07-11T21:11:55 IST" duration-ms="380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod(org.testng.ITestResult)[pri:0, instance:com.testCases.TC_001@2dc54ad4]" started-at="2023-07-11T21:11:55 IST" name="beforeMethod" finished-at="2023-07-11T21:11:55 IST" duration-ms="97" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=TC_001.tC_user_Login()[pri:1, instance:com.testCases.TC_001@2dc54ad4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="tC_user_Login()[pri:1, instance:com.testCases.TC_001@2dc54ad4]" started-at="2023-07-11T21:11:55 IST" name="tC_user_Login" finished-at="2023-07-11T21:12:08 IST" duration-ms="12927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tC_user_Login -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:com.testCases.TC_001@2dc54ad4]" started-at="2023-07-11T21:12:08 IST" name="afterMethod" finished-at="2023-07-11T21:12:08 IST" duration-ms="375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.testCases.TC_001@2dc54ad4]" started-at="2023-07-11T21:12:08 IST" name="afterSuite" finished-at="2023-07-11T21:12:09 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.testCases.TC_001 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
