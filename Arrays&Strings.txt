@@ -1,0 +1,207 @@
+Non premitive dataTypes
+Strings
+
+
+Non premitive dataTypes:
+Non premitive datartpes are allowed the one then one value in a single data type.
+
+Non premitive data types is also called as a Array's.
+
+How we defind the non premitive data type .
+
+Syntax:
+
+datatype[] refval = {value,value2,value3,value4,value5};
+
+Ex:
+int[] intArray={3,54,35,4,54,44};
+int a=20;
+
+
+length:
+
+This method are used to find the length of the array and it's return the int lenth number.
+
+
+1. The values are store in the array based on index values. index starts with '0'
+
+int[] intArray={3,54,35,4,54,44};
+		0,1, 2, 3,4 ,5
+
+Once we are define the array the length is fixed we are not able to change the length of array.
+
+I need to store the data in run time.
+
+THen need to create the object for the array then we can store the data and retrive the data in run time.
+
+Syntax:
+
+dataType[] refval=new dataType[length];
+
+
+In array must be define the length. once we defind the length we are not able to change the length.
+
+Ex:
+
+String[] st=new String[10];
+
+
+******************************************
+
+
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int[] intArray = { 3, 54, 35, 4, 54, 44 };
+		// We have predefimed method are avaiable in arrays
+
+		int len = intArray.length;
+		System.out.println(len);
+
+		int va = intArray[1];
+		System.out.println(va);
+
+		for (int i = 0; i < len; i++) {
+			va = intArray[i];
+			System.out.println(va);
+		}
+
+		String[] str = { "Selenium", "Testing", "Anil", "Software" };
+		for (int i = 0; i < str.length; i++) {
+			String d = str[i];
+			System.out.println(d);
+		}
+		intArray[0] = 56;
+		System.out.println(intArray[0]);
+
+		int[] li = new int[10];
+
+		String[] st = new String[10];
+		System.out.println(st.toString());
+
+		st[0] = "ABC";
+		st[1] = "CBA";
+		st[2] = "Selenium";
+
+		st[9] = "Anil";
+		System.out.println(st.toString());
+		// {"ABC", "CBA","Selenium",null,null,null,null,null,null,null}
+		for (int i = 0; i < st.length; i++) {
+			String h = st[i];
+			System.out.println(h);
+		}
+		System.out.println(st[10]);
+	}
+
+*************************************************************
+
+Strings:
+String is act like a Datatype and Class also.
+
+Syntax:
+
+String refvar="Value";
+
+
+String class Methods:
+
+length():
+
+This method are used to find the length of the string. And this methpd return the length of the string.
+
+
+int size=name.length();
+System.out.println(size);
+
+charAt(index):
+
+This method are used to get the data from string char by char value.
+
+This method return the singe charcter at a time.
+
+
+TasK:
+
+
+Print the string in reverse:
+
+
+String cir="Testing Masters Selenium Training"
+
+toLowerCase():
+This method are used to conver the string into lowercase.
+
+toUpperCase():
+
+This method are used to convert the entire string into upper case.
+
+equals(val):
+this method are used to valida the given to strings are equal or not.
+If 2 string are equal then it's return the boolean true value.
+If 2 string are not equal then it's return the boolan false value.
+
+
+
+split(" ");
+
+This method are helped to split the complete string and store in a String array.
+
+
+Task:
+
+Print the string into each word in reverse.
+
+trim();
+This method are used to remove the spaces in starting and ending position of the string.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
